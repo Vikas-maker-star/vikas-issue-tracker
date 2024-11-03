@@ -64,4 +64,4 @@ type IssueForm = z.infer<typeof createIssueSchema>;
   )
 }
 
-export default NewIssuePage
+export default NewIssuePage;
