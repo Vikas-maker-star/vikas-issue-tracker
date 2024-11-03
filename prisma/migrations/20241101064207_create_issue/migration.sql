@@ -11,7 +11,6 @@
 --     CONSTRAINT "Issue_pkey" PRIMARY KEY ("id")
 -- );
 
-
 CREATE TABLE "Issue" (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,

@@ -48,7 +48,6 @@ type IssueForm = z.infer<typeof createIssueSchema>;
             <TextField.Root placeholder='Title' {...register('title')} />
              
         {/* </TextField.Root> */}
-
           {errors.title && <Text color="red" as="p">{errors.title?.message}</Text> }
 
        <Controller
